@@ -17,6 +17,11 @@
 }
 
 .center_header  a.button.rounded {
-    width: 39px;
-    height: 39px;
+    width: 40px;
+    height: 40px;
+}
+
+.center_header .input-group > :last-child > *,
+.center_header .input-group > :first-child {
+    border-radius: 0;
 }
