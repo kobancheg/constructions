@@ -7,11 +7,6 @@
     border-left: 0;
 }
 
-.center_header [type='search'], textarea {
+.center_header [type='search'], textarea {.re
     box-shadow: none;
-}
-
-.center_header [type='search']:focus {
-    border:1px solid #cacaca;
-    border-right: 0;
 }
