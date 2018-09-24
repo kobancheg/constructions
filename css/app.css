@@ -35,7 +35,8 @@ h6 {
     border-right: 0;
 }
 
-.center_header  a.button.rounded {
+.center_header  a.button.rounded,
+.center_footer a.button.rounded {
     width: 40px;
     height: 40px;
 }
@@ -43,4 +44,12 @@ h6 {
 .center_header .input-group > :last-child > *,
 .center_header .input-group > :first-child {
     border-radius: 0;
+}
+
+.left_footer .menu a {
+    line-height: 0.5;
+}
+
+.center_footer .schema {
+    line-height: 1.65;
 }
