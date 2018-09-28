@@ -21,6 +21,36 @@ h6 {
     border-right: 0;
 }
 
+body {
+    color: #707070;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #707070;
+}
+
+.button:hover, .button:focus {
+    background-color: #258dad;
+    color: #b8b8b8;
+}
+
+a:hover, a:focus {
+    color: #ff5733;
+}
+
+.bg1 {
+    background-color: #707070;
+}
+.bg2 {
+    background-color: #b8b8b8;
+}
+.bg3 {
+    background-color: #f0f0f0;
+}
+.bg4 {
+    background-color: #ff5733;
+}
+
 .center_header .button.hollow.secondary {
     border: 1px solid #cacaca;
     border-left: 0;

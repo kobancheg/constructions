@@ -31,10 +31,39 @@
                 </div>
             </div>
             <div class="button-group align-center">
-                <a class="button rounded padding-horizontal-0"><i class="fab fa-vk fa-sm"></i></a>
-                <a class="button rounded padding-horizontal-0"><i class="fab fa-facebook-f fa-sm"></i></a>
-                <a class="button rounded padding-horizontal-0"><i class="fab fa-twitter fa-sm"></i></a>
-                <a class="button rounded padding-horizontal-0"><i class="fas fa-at fa-sm"></i></a>
+                <a class="button rounded padding-horizontal-0 bg4"><i class="fab fa-vk fa-sm"></i></a>
+                <a class="button rounded padding-horizontal-0 bg4"><i class="fab fa-facebook-f fa-sm"></i></a>
+                <a class="button rounded padding-horizontal-0 bg4"><i class="fab fa-twitter fa-sm"></i></a>
+                <a class="button rounded padding-horizontal-0 bg4" data-open="email_Modal1">
+                    <i class="fas fa-at fa-sm"></i></a>
+                <div class="reveal" id="email_Modal1" data-reveal>
+                    <h1 class="text-center">Обратная связь</h1>
+                    <div class="callout large padding-bottom-0">
+                        <form class="contact-us-form">
+                            <label>Имя контактного лица
+                                <input type="text" placeholder="">
+                            </label>
+                            <label>Номер телефона
+                                <input type="tel" placeholder="">
+                            </label>
+                            <label>E-mail*
+                                <input type="tel" placeholder="">
+                            </label>
+                            <label>
+                                at books did you read over summer break?
+                                <textarea placeholder=""></textarea>
+                            </label>
+                            <div class="contact-us-form-actions text-center">
+                                <input type="checkbox"><label>Соглашаюсь c условиями обработки персональных
+                                данных</label>
+                                <input type="submit" class="button" value="Отправить">
+                            </div>
+                        </form>
+                    </div>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="cell large-3 right_header align-self-middle">
@@ -48,7 +77,7 @@
 
                 <div class="cell small-6 large-12">
                     <p class="text-center large-text-right">
-                        <button class="button rounded" data-open="exampleModal1">Заказать звонок</button>
+                        <button class="button rounded bg4" data-open="exampleModal1">Заказать звонок</button>
                     </p>
                 </div>
                 <div class="reveal" id="exampleModal1" data-reveal>
@@ -80,7 +109,7 @@
 <!--end header-->
 
 <!--navigation top-->
-<nav class="grid-container">
+<nav class="grid-container bg1">
     <nav class="title-bar" data-responsive-toggle="top-menu" data-hide-for="large">
         <button class="menu-icon" type="button" data-toggle="top-menu"></button>
         <div class="title-bar-title">Меню</div>
