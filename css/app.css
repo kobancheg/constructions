@@ -22,33 +22,54 @@ h6 {
 }
 
 body {
-    color: #707070;
+    color: #e6e6e6;
 }
 
 .top-bar, .top-bar ul {
-    background-color: #707070;
+    background-color: #55473a;
 }
 
-.button:hover, .button:focus {
-    background-color: #258dad;
-    color: #b8b8b8;
+.top-bar ul.submenu {
+    background-color: #b88f4d;
 }
+
+.top-bar a {
+    color: #e6e6e6;
+}
+
+
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+    border-color: #b88f4d transparent transparent;
+}
+
+.dropdown.menu .is-active > a {
+    background: transparent;
+    color: #deca88;
+}
+
+/*.button:hover, .button:focus {*/
+    /*background-color: #258dad;*/
+    /*color: #b8b8b8;*/
+/*}*/
 
 a:hover, a:focus {
-    color: #ff5733;
+    color: #deca88;
 }
 
 .bg1 {
-    background-color: #707070;
+    background-color: #e6e6e6;
 }
 .bg2 {
-    background-color: #b8b8b8;
+    background-color: #deca88;
 }
 .bg3 {
-    background-color: #f0f0f0;
+    background-color: #debb5f;
 }
 .bg4 {
-    background-color: #ff5733;
+    background-color: #b88f4d;
+}
+.bg5 {
+    background-color: #55473a;
 }
 
 .center_header .button.hollow.secondary {
