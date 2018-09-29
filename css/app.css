@@ -22,38 +22,7 @@ h6 {
 }
 
 body {
-    color: #e6e6e6;
-}
-
-.top-bar, .top-bar ul {
-    background-color: #55473a;
-}
-
-.top-bar ul.submenu {
-    background-color: #b88f4d;
-}
-
-.top-bar a {
-    color: #e6e6e6;
-}
-
-
-.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
-    border-color: #b88f4d transparent transparent;
-}
-
-.dropdown.menu .is-active > a {
-    background: transparent;
-    color: #deca88;
-}
-
-/*.button:hover, .button:focus {*/
-    /*background-color: #258dad;*/
-    /*color: #b8b8b8;*/
-/*}*/
-
-a:hover, a:focus {
-    color: #deca88;
+    color: #55473a;
 }
 
 .bg1 {
@@ -70,6 +39,46 @@ a:hover, a:focus {
 }
 .bg5 {
     background-color: #55473a;
+}
+.bg6 {
+    background-color: #f03d33;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #55473a;
+}
+
+.top-bar ul.submenu {
+    background-color: #b88f4d;
+}
+
+.top-bar a {
+    color: #e6e6e6;
+}
+
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+    border-color: #b88f4d transparent transparent;
+}
+
+.dropdown.menu .is-active > a {
+    background: transparent;
+    color: #deca88;
+}
+
+.button:hover, .button:focus {
+    background-color: #55473a;
+}
+
+.bg6:hover, bg6:focus {
+    background-color: #b88f4d;
+}
+
+a:hover, a:focus {
+    color: #deca88;
+}
+
+.submenu a:hover, .submenu a:focus {
+    color: #55473a;
 }
 
 .center_header .button.hollow.secondary {
