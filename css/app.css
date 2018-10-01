@@ -24,7 +24,6 @@ body {
 /*menu*/
 
 .title-bar {
-    background: #e6e6e6;
     color: rgba(10, 10, 10, 0.5);
 }
 
@@ -42,6 +41,8 @@ body {
     box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
 }
 
+.card-divider,
+.card-section h3,
 .calc-price,
 aside .vertical.menu,
 .menu-hover-lines, .title-bar-title {
@@ -50,12 +51,15 @@ aside .vertical.menu,
     transition: all 0.35s ease;
 }
 
+.card-divider,
+.card-section h3,
 .calc-price,
 aside .vertical.menu li a,
 .menu-hover-lines li a {
     color: rgba(10, 10, 10, 0.5);
 }
 
+.card-section h3:hover,
 .calc-price:hover,
 aside .vertical.menu li a:hover,
 aside .vertical.menu li.active > a,
@@ -136,8 +140,16 @@ aside .vertical.menu .is-active > a,
     }
 }
 
-aside a {
+.card-divider,
+aside a,
+.card-section h3 {
     font-size: 0.75rem;
+}
+
+.card-section,
+.callout li,
+.callout p {
+    font-size: 0.9rem;
 }
 
 /*end menu*/
