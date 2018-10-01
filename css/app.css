@@ -61,8 +61,14 @@ body {
     color: #0a0a0a;
 }
 
+@media screen and (min-width: 64em) {
+    #top-menu .menu a, .menu .button {
+        display: inline-block;
+    }
+}
+
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
-    border-color: #1779ba transparent transparent;
+    border-color: #2ba6cb transparent transparent;
 }
 
 @media screen and (min-width: 64em) {
@@ -86,7 +92,7 @@ body {
         position: absolute;
         content: '';
         transition: all 0.35s ease;
-        background-color: #1779ba;
+        background-color: #2ba6cb;
         width: 0;
     }
 
@@ -142,7 +148,7 @@ body {
     border-right: 0;
 }
 
-.center_header  a.button.rounded,
+.right_header  a.button.rounded,
 .center_footer a.button.rounded {
     width: 40px;
     height: 40px;
