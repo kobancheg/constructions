@@ -42,21 +42,29 @@ body {
     box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
 }
 
+.calc-price,
+aside .vertical.menu,
 .menu-hover-lines, .title-bar-title {
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.35s ease;
 }
 
+.calc-price,
+aside .vertical.menu li a,
 .menu-hover-lines li a {
     color: rgba(10, 10, 10, 0.5);
 }
 
+.calc-price:hover,
+aside .vertical.menu li a:hover,
+aside .vertical.menu li.active > a,
 .menu-hover-lines a:hover,
 .menu-hover-lines li.active > a {
     color: #0a0a0a;
 }
 
+aside .vertical.menu .is-active > a,
 .dropdown.menu .is-active > a {
     color: #0a0a0a;
 }
@@ -126,6 +134,10 @@ body {
     .dropdown.menu.vertical > li > a::after {
         right: 0px;
     }
+}
+
+aside a {
+    font-size: 0.75rem;
 }
 
 /*end menu*/
