@@ -25,6 +25,7 @@ body {
 
 .title-bar {
     color: rgba(10, 10, 10, 0.5);
+    background: #e6e6e6;
 }
 
 .title-bar-title {
