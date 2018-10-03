@@ -42,6 +42,7 @@ body {
     box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
 }
 
+.left_footer,
 .card-divider,
 .card-section h3,
 .calc-price,
@@ -56,6 +57,7 @@ aside .vertical.menu,
 .card-section h3,
 .calc-price,
 aside .vertical.menu li a,
+.left_footer .vertical.menu li a,
 .menu-hover-lines li a {
     color: rgba(10, 10, 10, 0.5);
 }
@@ -64,12 +66,15 @@ aside .vertical.menu li a,
 .calc-price:hover,
 aside .vertical.menu li a:hover,
 aside .vertical.menu li.active > a,
+.left_footer .vertical.menu li a:hover,
+.left_footer .vertical.menu li.active > a,
 .menu-hover-lines a:hover,
 .menu-hover-lines li.active > a {
     color: #0a0a0a;
 }
 
 aside .vertical.menu .is-active > a,
+.left_footer .vertical.menu .is-active > a,
 .dropdown.menu .is-active > a {
     color: #0a0a0a;
 }
@@ -141,6 +146,7 @@ aside .vertical.menu .is-active > a,
     }
 }
 
+.left_footer,
 .card-divider,
 aside a,
 .card-section h3 {
