@@ -274,16 +274,30 @@
                     <h3>Contrary to popular belief</h3>
                     <img src="https://placehold.it/300x200">
                     <p class="padding-top-1 width-100">
-                        <button class="button" data-open="price-Modal1">Click me for a modal</button>
+                        <button class="button" data-open="price-Modal1">Узнать стоимость</button>
                     </p>
+                    <!--price modal-->
                     <div class="reveal" id="price-Modal1" data-reveal>
-                        <h1>Awesome. I Have It.</h1>
-                        <p class="lead">Your couch. It is mine.</p>
-                        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+                        <h1 class="text-center">Узнать стоимость</h1>
+                        <div class="callout large padding-bottom-0">
+                            <form class="contact-us-form">
+                                <label>Имя контактного лица<input type="text" placeholder=""></label>
+                                <label>Номер телефона<input type="tel" placeholder=""></label>
+                                <label>E-mail*<input type="tel" placeholder=""></label>
+                                <label>Описание<textarea placeholder=""></textarea></label>
+                                <label>Выберите файл<span type="text"><input type="file"></span></label>
+                                <div class="contact-us-form-actions text-center">
+                                    <input type="checkbox"><label>Соглашаюсь c условиями обработки персональных
+                                    данных</label>
+                                    <input type="submit" class="button" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
                         <button class="close-button" data-close aria-label="Close modal" type="button">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+                    <!--price modal end-->
                 </div>
                 <div class="cell">
                     <h3>Contrary to popular belief</h3>
@@ -343,6 +357,7 @@
                     <a class="button rounded padding-horizontal-0"><i class="fab fa-twitter fa-sm"></i></a>
                     <a class="button rounded padding-horizontal-0" data-open="email_Modal1_footer">
                         <i class="fas fa-at fa-sm"></i></a>
+                    <!--email modal-->
                     <div class="reveal" id="email_Modal1_footer" data-reveal>
                         <h1 class="text-center">Обратная связь</h1>
                         <div class="callout large padding-bottom-0">
@@ -371,6 +386,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+                    <!--email modal end-->
                 </div>
                 <div itemscope="" itemtype="https://schema.org/Organization" class="schema margin-top-1 text-center">
                     © 2018 <span itemprop="name">ГлавСтеклоСтрой</span><br>
