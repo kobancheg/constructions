@@ -53,6 +53,7 @@ aside .vertical.menu,
     transition: all 0.35s ease;
 }
 
+.accordion-title,
 .card-divider,
 .card-section h3,
 .calc-price,
@@ -62,6 +63,8 @@ aside .vertical.menu li a,
     color: rgba(10, 10, 10, 0.5);
 }
 
+a.accordion-title:hover,
+a.accordion-title:focus,
 .card-section h3:hover,
 .calc-price:hover,
 aside .vertical.menu li a:hover,
@@ -73,6 +76,7 @@ aside .vertical.menu li.active > a,
     color: #0a0a0a;
 }
 
+.accordion-item .is-active > a.accordion-title,
 aside .vertical.menu .is-active > a,
 .left_footer .vertical.menu .is-active > a,
 .dropdown.menu .is-active > a {
@@ -146,6 +150,7 @@ aside .vertical.menu .is-active > a,
     }
 }
 
+.accordion-title,
 .left_footer,
 .card-divider,
 aside a,
@@ -155,9 +160,11 @@ aside a,
 
 .cell p,
 .card-section p,
+.media-object-section p,
 .callout li,
 .callout p {
     font-size: 0.9rem;
+    color: rgba(112, 112, 112, 1);
 }
 
 /*end menu*/

@@ -273,8 +273,8 @@
                 <div class="cell">
                     <h3>Contrary to popular belief</h3>
                     <img src="https://placehold.it/300x200">
-                    <p class="padding-top-1 width-100">
-                        <button class="button" data-open="price-Modal1">Узнать стоимость</button>
+                    <p class="padding-top-1 width-100 text-center">
+                        <button class="button small" data-open="price-Modal1">Узнать стоимость</button>
                     </p>
                     <!--price modal-->
                     <div class="reveal" id="price-Modal1" data-reveal>
@@ -312,6 +312,53 @@
                     </p>
                 </div>
             </div>
+            <!--accordion-->
+            <h2 class="text-center">Дополнительные опции</h2>
+            <ul class="accordion" data-accordion>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">Профиль любого цвета</a>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <div class="media-object stack-for-small">
+                            <div class="media-object-section">
+                                <img src="https://placehold.it/200x200">
+                            </div>
+                            <div class="media-object-section">
+                                <p class="text-justify">It is a long established fact that a reader
+                                    will be distracted by the readable content of a
+                                    page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                    more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                    content
+                                    here', making it look like readable English.
+                                </p>
+                                <p class="text-center">
+                                    <button class="button small" data-toggle="media-modal">Посмотреть фотографии</button>
+                                </p>
+                                <!--media-modal-->
+                                <div class="full reveal" id="media-modal" data-reveal>
+                                    <img src="https://placehold.it/1200x800">
+                                    <button class="close-button" data-close aria-label="Close reveal" type="button">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <!--media-modal end-->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">Accordion 2</a>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+                <!-- ... -->
+            </ul>
+            <!--accordion-->
         </main>
         <!--main end-->
     </div>
@@ -320,23 +367,8 @@
 
 <!--footer-->
 <footer>
+    <hr>
     <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-            <div class="large-4 cell">
-                <div class="callout border-none">
-                    <h1>О компании</h1>
-                    <p class="text-justify">ООО «ГлавСтеклоСтрой» - современная компания, специализирующаяся на
-                        проектировании, производстве
-                        и монтаже светопрозрачных конструкций любой сложности - от частного проекта до промышленного
-                        заказа </p>
-                </div>
-            </div>
-            <div class="large-8 cell">
-                <div class="callout border-none padding-horizontal-0">
-                    <img src="https://placehold.it/650x250"/>
-                </div>
-            </div>
-        </div>
         <div class="grid-x grid-margin-x small-up-1 medium-up-3">
             <div class="cell left_footer text-center medium-text-left margin-bottom-2">
                 <ul class="vertical menu">
