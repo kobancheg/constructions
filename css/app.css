@@ -153,7 +153,8 @@ aside a,
     font-size: 0.75rem;
 }
 
-.card-section,
+.cell p,
+.card-section p,
 .callout li,
 .callout p {
     font-size: 0.9rem;
