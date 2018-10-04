@@ -1,3 +1,11 @@
+body.is-reveal-open {
+    padding-right: 1rem;
+}
+
+body {
+    color: rgba(112, 112, 112, 1);
+}
+
 h1 {
     font-size: 24px;
 }
@@ -15,10 +23,6 @@ h5 {
 }
 h6 {
     font-size: 16px;
-}
-
-body {
-    color: rgba(112, 112, 112, 1);
 }
 
 /*menu*/
@@ -150,7 +154,8 @@ aside .vertical.menu .is-active > a,
     }
 }
 
-.accordion-title,
+/*end menu*/
+
 .left_footer,
 .card-divider,
 aside a,
@@ -167,7 +172,9 @@ aside a,
     color: rgba(112, 112, 112, 1);
 }
 
-/*end menu*/
+.accordion-title {
+    font-size: 1rem;
+}
 
 .center_header .input-group > :first-child {
     border-right: 0;
