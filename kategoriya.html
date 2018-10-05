@@ -333,11 +333,42 @@
                                     here', making it look like readable English.
                                 </p>
                                 <p class="text-center">
-                                    <button class="button small" data-toggle="media-modal">Посмотреть фотографии</button>
+                                    <button class="button small" data-toggle="media-modal">Посмотреть фотографии
+                                    </button>
                                 </p>
                                 <!--media-modal-->
-                                <div class="full reveal" id="media-modal" data-reveal>
-                                    <img src="https://placehold.it/1200x800">
+                                <div class="reveal slider-modal" id="media-modal" data-reveal>
+                                    <!--hero slider-->
+                                    <div class="orbit clean-hero-slider" role="region"
+                                         aria-label="Favorite Space Pictures" data-orbit data-auto-play="false">
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-controls">
+                                                <button class="orbit-previous"><span
+                                                        class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;
+                                                </button>
+                                                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;
+                                                </button>
+                                            </div>
+                                            <ul class="orbit-container">
+                                                <li class="orbit-slide">
+                                                    <figure class="orbit-figure">
+                                                        <img src="https://placehold.it/1024x800" alt="image alt text">
+                                                    </figure>
+                                                </li>
+                                                <li class="orbit-slide">
+                                                    <figure class="orbit-figure">
+                                                        <img src="https://placehold.it/1024x800" alt="image alt text">
+                                                    </figure>
+                                                </li>
+                                                <li class="orbit-slide">
+                                                    <figure class="orbit-figure">
+                                                        <img src="https://placehold.it/1024x800" alt="image alt text">
+                                                    </figure>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--hero slider end-->
                                     <button class="close-button" data-close aria-label="Close reveal" type="button">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
