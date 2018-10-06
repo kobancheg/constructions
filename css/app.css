@@ -6,23 +6,28 @@ body {
     color: rgba(112, 112, 112, 1);
 }
 
-h1 {
-    font-size: 24px;
+h1, .h1 {
+    font-size: 24px !important;
 }
-h2 {
-    font-size: 20px;
+
+h2, .h2 {
+    font-size: 20px !important;
 }
-h3 {
-    font-size: 19px;
+
+h3, .h3 {
+    font-size: 19px !important;
 }
-h4 {
-    font-size: 18px;
+
+h4, .h4 {
+    font-size: 18px !important;
 }
-h5 {
-    font-size: 17px;
+
+h5, .h5 {
+    font-size: 17px !important;
 }
-h6 {
-    font-size: 16px;
+
+h6, .h6 {
+    font-size: 16px !important;
 }
 
 /*menu*/
@@ -57,6 +62,7 @@ aside .vertical.menu,
     transition: all 0.35s ease;
 }
 
+th,
 .accordion-title,
 .card-divider,
 .card-section h3,
@@ -192,11 +198,11 @@ main li,
 }
 
 .center_header [type='search']:focus {
-    border:1px solid #cacaca;
+    border: 1px solid #cacaca;
     border-right: 0;
 }
 
-.right_header  a.button.rounded,
+.right_header a.button.rounded,
 .center_footer a.button.rounded {
     width: 40px;
     height: 40px;
@@ -352,3 +358,19 @@ main li,
 }
 
 /*end hero slider*/
+
+.row-icons i {
+    color: #ffae00;
+}
+
+i.fa-home {
+    color: #2ba6cb;
+}
+
+#imagelightbox {
+    position: fixed;
+    z-index: 9999;
+
+    -ms-touch-action: none;
+    touch-action: none;
+}
