@@ -7,27 +7,27 @@ body {
 }
 
 h1, .h1 {
-    font-size: 24px !important;
+    font-size: 24px;
 }
 
 h2, .h2 {
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 h3, .h3 {
-    font-size: 19px !important;
+    font-size: 19px;
 }
 
 h4, .h4 {
-    font-size: 18px !important;
+    font-size: 18px;
 }
 
 h5, .h5 {
-    font-size: 17px !important;
+    font-size: 17px;
 }
 
 h6, .h6 {
-    font-size: 16px !important;
+    font-size: 16px;
 }
 
 /*menu*/
@@ -167,6 +167,12 @@ aside .vertical.menu .is-active > a,
 aside a,
 .card-section h3 {
     font-size: 0.75rem;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+    color: rgba(112, 112, 112, 1);
 }
 
 td,
@@ -367,10 +373,6 @@ i.fa-home {
     color: #2ba6cb;
 }
 
-#imagelightbox {
-    position: fixed;
-    z-index: 9999;
-
-    -ms-touch-action: none;
-    touch-action: none;
+p.h3 {
+    font-size: 19px;
 }
