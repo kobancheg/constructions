@@ -162,6 +162,10 @@ aside .vertical.menu .is-active > a,
 
 /*end menu*/
 
+.card {
+    border-radius: 0;
+}
+
 .left_footer,
 .card-divider,
 aside a,
@@ -182,7 +186,7 @@ main li,
 .media-object-section p,
 .callout li,
 .callout p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: rgba(112, 112, 112, 1);
 }
 
