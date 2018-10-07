@@ -73,6 +73,7 @@ aside .vertical.menu li a,
     color: rgba(10, 10, 10, 0.5);
 }
 
+.card-divider h3:hover,
 a.accordion-title:hover,
 a.accordion-title:focus,
 .card-section h3:hover,
@@ -166,26 +167,19 @@ aside .vertical.menu .is-active > a,
     border-radius: 0;
 }
 
-.left_footer,
-.card-divider,
-aside a,
-.card-section h3 {
+.left_footer, .card-divider, aside a,
+.card-section h3, .card-divider h3 {
     font-size: 0.75rem;
 }
 
-.callout h1,
-.callout h2,
-.callout h3 {
+.callout h1, .callout h2, .callout h3,
+.pagination a, .pagination button {
     color: rgba(112, 112, 112, 1);
 }
 
-td,
-main li,
-.cell p,
-.card-section p,
+td, main li, .cell p, .card-section p,
 .media-object-section p,
-.callout li,
-.callout p {
+.callout li, .callout p {
     font-size: 0.8rem;
     color: rgba(112, 112, 112, 1);
 }
@@ -379,4 +373,10 @@ i.fa-home {
 
 p.h3 {
     font-size: 19px;
+}
+
+.card.obekt:hover {
+    border: 0.0625rem solid #cacaca;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
