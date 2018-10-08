@@ -15,16 +15,16 @@
 
 <!--header-->
 <header class="grid-container">
-    <div class="grid-x grid-margin-x">
-        <div class="cell large-3 left_header align-self-middle text-center large-text-left">
+    <div class="grid-x grid-padding-x">
+        <div class="cell large-3 left_header text-center large-text-left margin-top-2">
             <a href="/index.html">
                 <img src="images/logo1.png"/>
             </a>
         </div>
         <div class="cell large-5 large-offset-1 center_header margin-top-1">
-            <p class="text-center"><strong>Проектирование, производство и монтаж конструкций из стекла</strong></p>
+            <h1 class="text-center h6"><strong>Проектирование, производство и монтаж конструкций из стекла</strong></h1>
             <div class="grid-x grid-padding-x">
-                <div class="cell small-6 medium-12">
+                <div class="cell small-6 medium-12 align-self-middle">
                     <div class="input-group">
                         <input class="input-group-field" type="search" placeholder="Поиск">
                         <div class="input-group-button">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="cell large-3 right_header align-self-middle margin-top-1">
+        <div class="cell large-3 right_header margin-top-1">
             <div class="grid-x">
                 <div class="cell small-6 medium-4 hide-for-large">
                     <div class="button-group align-center">
@@ -82,13 +82,11 @@
                 </div>
                 <div class="cell medium-4 large-12 show-for-medium">
                     <p class="text-center large-text-right"><i class="fas fa-phone fa-sm margin-right-1"></i><strong>8
-                        (495)
-                        407-78-41</strong><br/>c 9:00 до
-                        18:00</p>
+                        (495) 407-78-41</strong><br/>c 9:00 до 18:00</p>
                 </div>
                 <div class="cell small-6 medium-4 large-12">
                     <p class="text-center large-text-right">
-                        <button class="button rounded" data-open="exampleModal1">Заказать звонок</button>
+                        <button class="button margin-bottom-0 rounded" data-open="exampleModal1">Заказать звонок</button>
                     </p>
                 </div>
                 <div class="reveal" id="exampleModal1" data-reveal>
@@ -267,12 +265,17 @@
                     </li>
                 </ul>
             </nav>
-            <div class="input-group">
-                <input class="input-group-field" type="search">
-                <div class="input-group-button">
-                    <input type="submit" class="button" value="Найти">
+            <form>
+                <div class="input-group">
+                    <input class="input-group-field" type="search">
+                    <div class="input-group-button">
+                        <input type="submit" class="button" value="Найти">
+                    </div>
                 </div>
-            </div>
+                <fieldset class="search">
+                    <input type="checkbox"><label>Точное совпадение фразы</label>
+                </fieldset>
+            </form>
 
             <div class="grid-x grid-margin-x">
 

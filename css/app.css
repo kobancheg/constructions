@@ -51,6 +51,16 @@ h6, .h6 {
     box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
 }
 
+@media screen and (max-width: 39.9375em) {
+    .right_header {
+        margin-top: 0!important;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
 .left_footer,
 .card-divider,
 .card-section h3,
@@ -197,6 +207,9 @@ td, main li, .cell p, .card-section p,
     border-left: 0;
 }
 
+.center_header .input-group {
+    margin-bottom: 0.5rem;
+}
 
 .input-group > :last-child > *,
 .input-group > :first-child {
@@ -214,6 +227,10 @@ td, main li, .cell p, .card-section p,
 .input-group [type='search']:focus {
     border: 1px solid #cacaca;
     border-right: 0;
+}
+
+[type="checkbox"] + label, [type="radio"] + label {
+    color: rgba(112, 112, 112, 1);
 }
 
 .right_header a.button.rounded,
