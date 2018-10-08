@@ -197,11 +197,21 @@ td, main li, .cell p, .card-section p,
     border-left: 0;
 }
 
-.center_header [type='search'], textarea {
+
+.input-group > :last-child > *,
+.input-group > :first-child {
+    border-radius: 0;
+}
+
+.center_header i.fas {
+    line-height: 2.5rem;
+}
+
+.input-group [type='search'], textarea {
     box-shadow: none;
 }
 
-.center_header [type='search']:focus {
+.input-group [type='search']:focus {
     border: 1px solid #cacaca;
     border-right: 0;
 }
@@ -210,11 +220,6 @@ td, main li, .cell p, .card-section p,
 .center_footer a.button.rounded {
     width: 40px;
     height: 40px;
-}
-
-.center_header .input-group > :last-child > *,
-.center_header .input-group > :first-child {
-    border-radius: 0;
 }
 
 .left_footer .menu a {
