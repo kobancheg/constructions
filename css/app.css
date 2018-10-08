@@ -57,43 +57,28 @@ h6, .h6 {
     }
 }
 
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
-}
-
-.left_footer,
-.card-divider,
-.card-section h3,
-.calc-price,
-aside .vertical.menu,
+.left_footer, .card-divider, .card-section h3,
+.calc-price, aside .vertical.menu,
 .menu-hover-lines, .title-bar-title {
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.35s ease;
 }
 
-th,
-.accordion-title,
-.card-divider,
-.card-section h3,
-.calc-price,
-aside .vertical.menu li a,
-.left_footer .vertical.menu li a,
-.menu-hover-lines li a {
+th, .accordion-title,
+.card-divider, .card-section h3,
+.calc-price, aside .vertical.menu li a,
+.left_footer .vertical.menu li a, .menu-hover-lines li a {
     color: rgba(10, 10, 10, 0.5);
 }
 
-.card-divider h3:hover,
-a.accordion-title:hover,
-a.accordion-title:focus,
-.card-section h3:hover,
-.calc-price:hover,
-aside .vertical.menu li a:hover,
+.card-divider h3:hover, a.accordion-title:hover,
+a.accordion-title:focus, .card-section h3:hover,
+.calc-price:hover, aside .vertical.menu li a:hover,
 aside .vertical.menu li.active > a,
 .left_footer .vertical.menu li a:hover,
 .left_footer .vertical.menu li.active > a,
-.menu-hover-lines a:hover,
-.menu-hover-lines li.active > a {
+.menu-hover-lines a:hover, .menu-hover-lines li.active > a {
     color: #0a0a0a;
 }
 
@@ -177,8 +162,8 @@ aside .vertical.menu .is-active > a,
     border-radius: 0;
 }
 
-.left_footer, .card-divider, aside a,
-.card-section h3, .card-divider h3 {
+.left_footer, .card-divider, aside a, select,
+.card-section h3, .card-divider h3, label {
     font-size: 0.75rem;
 }
 
@@ -212,7 +197,7 @@ td, main li, .cell p, .card-section p,
 }
 
 .input-group > :last-child > *,
-.input-group > :first-child {
+.input-group > :first-child, select {
     border-radius: 0;
 }
 
@@ -220,8 +205,13 @@ td, main li, .cell p, .card-section p,
     line-height: 2.5rem;
 }
 
-.input-group [type='search'], textarea {
+.input-group [type='search'], textarea,
+select:focus {
     box-shadow: none;
+}
+
+select:focus {
+    border: 1px solid #cacaca;
 }
 
 .input-group [type='search']:focus {
@@ -229,7 +219,8 @@ td, main li, .cell p, .card-section p,
     border-right: 0;
 }
 
-[type="checkbox"] + label, [type="radio"] + label {
+[type="checkbox"] + label, [type="radio"] + label,
+select, label {
     color: rgba(112, 112, 112, 1);
 }
 
