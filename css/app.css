@@ -173,7 +173,7 @@ aside .vertical.menu .is-active > a,
 }
 
 td, main li, .cell p, .card-section p,
-.media-object-section p,
+.media-object-section p, time,
 .callout li, .callout p {
     font-size: 0.8rem;
     color: rgba(112, 112, 112, 1);
@@ -402,3 +402,32 @@ p.h3 {
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
+/*news filter*/
+
+.mobile-app-filter-menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0;
+    height: 2.8125rem;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+.mobile-app-filter-menu li a {
+    color: #cacaca;
+}
+
+.mobile-app-filter-menu li.is-active a {
+    color: #8a8a8a;
+}
+
+/*news filter end*/
