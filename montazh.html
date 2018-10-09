@@ -266,19 +266,30 @@
                     </li>
                 </ul>
             </nav>
-            <h2>Отзывы</h2>
-            <p class="width-100">
-                <button class="button hollow" data-open="feedback-Modal1">Добавить отзыв</button>
+            <h2 class="text-center">Монтаж</h2>
+            <p class="text-justify">Первый шаг – замеры. Монтаж конструкций из стекла, выполненный на основании неверных
+                расчетов, приведет к тому, что они или прослужат не так долго, как планировалось, или вообще будут
+                непригодны к эксплуатации. Результатом такой «экономии» станет необходимость платить за доработку или
+                мириться с недостатками. При заказе установки под ключ исполнитель несет ответственность за проект и
+                результат.</p>
+            <h3>Что нужно знать:</h3>
+            <p class="text-justify">«ГлавСтеклоСтрой» выполняет остекление фасадов и интерьеров как для частных домов,
+                так и для крупных
+                промышленных предприятий, офисных, торговых и бизнес-центров. Все работы выполняет одна команда,
+                ответственность прописана в договоре.</p>
+            <p class="padding-top-1 width-100 text-center">
+                <button class="button small" data-open="price-Modal1">Рассчитать стоимость</button>
             </p>
-            <!--feedback modal-->
-            <div class="reveal" id="feedback-Modal1" data-reveal>
-                <h1 class="text-center">Отзывы</h1>
+            <!--price modal-->
+            <div class="reveal" id="price-Modal1" data-reveal>
+                <h1 class="text-center">Рассчитать стоимость</h1>
                 <div class="callout large padding-bottom-0">
                     <form class="contact-us-form">
-                        <label>E-mail<input type="tel" placeholder=""></label>
-                        <label>Имя и фамилия*<input type="text" placeholder=""></label>
+                        <label>Имя контактного лица<input type="text" placeholder=""></label>
+                        <label>Номер телефона<input type="tel" placeholder=""></label>
+                        <label>E-mail*<input type="tel" placeholder=""></label>
+                        <label>Описание<textarea placeholder=""></textarea></label>
                         <label>Выберите файл<span type="text"><input type="file"></span></label>
-                        <label>Отзыв*<textarea placeholder=""></textarea></label>
                         <div class="contact-us-form-actions text-center">
                             <input type="checkbox"><label>Соглашаюсь c условиями обработки персональных
                             данных</label>
@@ -290,53 +301,171 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <!--feedback modal end-->
-            <div class="card">
-                <div class="card-divider">
-                    <blockquote>
-                        Those people who think they know everything are a great annoyance to those of us who do.
-                        <cite>Isaac Asimov</cite>
-                    </blockquote>
+            <!--price modal end-->
+            <ul class="tabs" data-responsive-accordion-tabs="tabs accordion medium-tabs" id="example-tabs">
+                <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Стеклянной перегородки</a></li>
+                <li class="tabs-title"><a href="#panel2">Стеклянных дверей</a></li>
+                <li class="tabs-title"><a href="#panel3">Сантехнических перегородок</a></li>
+            </ul>
+            <div class="tabs-content" data-tabs-content="example-tabs">
+                <div class="tabs-panel is-active" id="panel1">
+                    <p class="text-justify">Монтаж цельностеклянных перегородок в офисе, торговой и сантехнической зоне
+                        – сложный процесс. Стекло – материал деликатный, работа с ним требует повышенной осторожности,
+                        аккуратности и профессиональных навыков. Поэтому монтаж стеклянных конструкций должны выполнять
+                        специалисты. Оптимально, если это та же компания, что изготовила конструкцию.</p>
+                    <h3>Установка под ключ это:</h3>
+                    <ul>
+                        <li>проектирование;</li>
+                        <li>производство;</li>
+                        <li>доставка;</li>
+                        <li>установка;</li>
+                        <li>сервисное обслуживание.</li>
+                    </ul>
+                    <p class="text-justify">Выполняем монтаж стеклянных перегородок, цена за м2 которых ниже средней по
+                        Москве. Работаем быстро, соблюдаем сроки, подстраиваемся под график клиента. До того, как будет
+                        подписан акт приемки работ, специалист проверит, насколько надежно и безопасно функционирует
+                        установленная конструкция.</p>
+                    <p class="text-justify">Сотрудники располагают инструментами и расходниками, поэтому бригада
+                        работает быстро. Мы не тратим зря ни ваше, ни свое время. Мобильные конструкции от
+                        «ГлавСтеклоСтрой» для офисных, торговых, жилых помещений: они позволяют элегантно и эргономично
+                        зонировать пространство. Их преимущества – санитарная и экологическая безопасность,
+                        долговечность, универсальность. Перепланировка с их использованием не требует длительных
+                        согласований. Освещенность помещения не изменяется, звукоизоляция стационарных глухих модулей
+                        равна стенам из гипсокартона.</p>
+                    <p class="text-justify">
+                        Если вы хотите узнать цену, воспользуйтесь кнопкой «Рассчитать стоимость». Если у вас есть
+                        вопросы, обратитесь к консультантам или вызовите мастера на объект.
+                    </p>
+                    <!--slider 1-->
+                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <div class="orbit-wrapper">
+                            <div class="orbit-controls">
+                                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;
+                                </button>
+                                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;
+                                </button>
+                            </div>
+                            <ul class="orbit-container">
+                                <li class="is-active orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1"
+                                             alt="Space">
+                                        <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="https://placehold.it/1200x600/888?text=Slide-2"
+                                             alt="Space">
+                                        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="https://placehold.it/1200x600/777?text=Slide-3"
+                                             alt="Space">
+                                        <figcaption class="orbit-caption">Encapsulating</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="https://placehold.it/1200x600/666&text=Slide-4"
+                                             alt="Space">
+                                        <figcaption class="orbit-caption">Outta This World</figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"><span
+                                    class="show-for-sr">First slide details.</span><span
+                                    class="show-for-sr">Current Slide</span></button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                        </nav>
+                    </div>
+                    <!-- end slider 1-->
                 </div>
-                <div class="card-section">
-                    <p class="text-justify">Хочу написать отзыв о работе компании ГлавСтеклоСтрой.
-                        Когда встал выбор о выборе организации для изготовления и монтажа остекления загородного дома,
-                        мною было разослано предложение в несколько ведущих компаний Москвы.
-                        Компания ГлавСтеклоСтрой откликнулась одна из первых с ориентировочным ТКП и была готова выслать
-                        замерщика бесплатно для уточнения объема работ.
-                    <p>
-                    <p class="text-justify">После общения с руководителем проектов Артёмом Купцовым, сразу были
-                        подобраны всевозможные
-                        варианты металлоконструкций и остекления. Артём показал себя как очень ответственный, вежливый
-                        и, главное, заинтересованный в проекте человек. За что ему отдельное спасибо. Также стоит
-                        отметить, что цена оказалась одной из самых выгодных.</p>
-                    <p class="text-justify">За время сотрудничества к нам несколько раз выезжал замерщик для уточнения
-                        сложных моментов
-                        расположения ограждений. Также очень долго выбирались всевозможные рисунки на стекле.
-                        Итогом мы очень довольны. Будем всем рекомендовать эту компанию!</p>
+                <div class="tabs-panel" id="panel2">
+                    <p class="text-justify">Установка цельностеклянных дверей позволяет сделать интерьер легким и
+                        небанальным. Неправильно
+                        выбранный подрядчик, экономия на фурнитуре и некомпетентность – главные враги долголетия и
+                        красоты вашей двери.</p>
+                    <p class="text-justify">
+                        Монтаж требует опыта и правильного подхода. Стеклянное полотно нельзя подпилить, поэтому
+                        предварительный замер проема должен быть максимально точным. Типовые проекты используются только
+                        в случае монтажа сборных конструкций – входных групп, душевых кабинок, перегородок разного типа.
+                        В случае, когда полотно встраивается в существующий проем без доборов и декоративных перегородок
+                        требуется изготовление на заказ.
+                    </p>
+                    <h3>Что нужно знать</h3>
+                    <p class="text-justify">
+                        Любую работу можно сделать дорого, а можно – хорошо. При заказе услуг важна не стоимость, а
+                        баланс качества и цены. Самостоятельно определить качество сложно – ведь вы вряд ли разбираетесь
+                        в фурнитуре, тонкостях транспортировки и порядке установки. Отзывы клиентов, фото процесса и
+                        максимум информации от подрядчика – то, что поможет вам не ошибиться с выбором.
+                    </p>
+                    <p>Важны:</p>
+                    <ul>
+                        <li class="text-justify">Качество проекта. В нем должны содержаться данные о размерах и типе
+                            изделия, перечень
+                            фурнитуры.
+                        </li>
+                        <li class="text-justify">Происхождение материалов. Информация о поставщиках стекла и фурнитуры
+                            должна быть в отрытом
+                            доступе.
+                        </li>
+                        <li class="text-justify">Порядок транспортировки. Специальная оснастка транспорта и надлежащая
+                            упаковка
+                            обязательны.
+                        </li>
+                        <li class="text-justify">Уровень цен. Среднерыночное значение, обоснованное расчетами – ваш
+                            вариант.
+                            Неправильный расчет нагрузки, неаккуратный монтаж, хлипкие петли и замки - причины выхода
+                            двери из строя. Чтобы конструкция прослужила заявленное количество лет, доверяйте установку
+                            профессионалам и не забывайте об элементарном уходе.
+                        </li>
+                    </ul>
+                    <h3>Услуги "Главстеклострой"</h3>
+                    <p class="text-justify">Мы не просто устанавливаем двери и перегородки из стекла – мы производим их
+                        сами. Максимальная проработка проекта с учетом освещенности и площади позволяют предлагать
+                        эффективные и доступные решения разграничения пространства. Мы предоставляем гарантию на все
+                        виды работ, постгарантийный сервис.</p>
+                    <p class="text-justify">
+                        Постоянный штат, современные инструменты и аксессуары для монтажа и многолетний опыт – залог
+                        качества нашей работы.</p>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-divider">
-                    <blockquote>
-                        Those people who think they know everything are a great annoyance to those of us who do.
-                        <cite>Isaac Asimov</cite>
-                    </blockquote>
-                </div>
-                <img src="https://placehold.it/600x800">
-                <div class="card-section">
-                    <p class="text-justify">Благодарственное письмо</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-divider">
-                    <blockquote>Южное Бутово<cite>Сергей Мерный</cite></blockquote>
-                </div>
-                <div class="card-section">
-                    <p class="text-justify">Очень рад что не ошибся в выборе в качестве изготовителя компании
-                        Главстеклострой. Доброжелательный менеджмент. Качественное изготовление, быстрый и также
-                        качественный монтаж. И самое главное, результат - установлены две двери, одна распашная, другая
-                        раздвижная, что позволяет экономить и расширять пространство. Большое спасибо всем!</p>
+                <div class="tabs-panel" id="panel3">
+                    <img class="thumbnail" src="https://placehold.it/600x480">
+                    <p class="text-justify">«ГлавСтеклоСтрой» предлагает установку сантехнических перегородок в ванных и
+                        туалетных комнатах
+                        жилых и общественных помещений. При заказе услуги под ключ к вам бесплатно выезжает мастер для
+                        замеров и оценки состояния помещения. Важно подобрать фурнитуру и крепежи так, чтобы
+                        компенсировать отклонения стен и пола от уровня, так как отклоненное полотно быстрее выходит из
+                        строя.</p>
+                    <img class="thumbnail" src="https://placehold.it/480x600">
+                    <h3>Доверяйте профессионалам</h3>
+                    <p class="text-justify">Мы производим и монтируем сантехнические перегородки всех типов. Проектный
+                        отдел готовит смету с полным указанием материалов, видов работ и их стоимости. Выполняем монтаж
+                        кабин, отдельностоящих перегородок, прямых и радиусных экранов, конструкций с распашными,
+                        раздвижными или складными дверями.</p>
+                    <img class="thumbnail" src="https://placehold.it/600x480">
+                    <h3>У нас:</h3>
+                    <ul>
+                        <li class="text-justify">инженеры и мастера по установке сантехнических перегородок в штате,
+                            ответственность за все выполненные работы;
+                        </li>
+                        <li class="text-justify">прозрачные условия договора, низкая цена за 1 кв.м., контроль
+                            соблюдения сроков;
+                        </li>
+                        <li class="text-justify">расширенная гарантия на конструкции, доработка и ремонт перегородок
+                            других производителей;
+                        </li>
+                        <li class="text-justify">доставка собственным автотранспортом, профессиональное оборудование для
+                            монтажа.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </main>

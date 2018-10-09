@@ -168,7 +168,7 @@ aside .vertical.menu .is-active > a,
 }
 
 .callout h1, .callout h2, .callout h3,
-.pagination a, .pagination button {
+.pagination a, .pagination button, .tabs-content {
     color: rgba(112, 112, 112, 1);
 }
 
@@ -386,7 +386,9 @@ i.fa-home {
 
 @media screen and (max-width: 39.9375em) {
     .fa-truck-moving, .fa-truck-loading,
-    .fa-plane, .fa-subway, .fa-map-marked-alt {
+    .fa-plane, .fa-subway, .fa-map-marked-alt,
+    .fa-file-invoice-dollar, .fa-hand-holding-usd,
+    .fa-cc-visa, .fa-cc-mastercard, .fa-bitcoin {
         font-size: 2rem;
     }
 }
