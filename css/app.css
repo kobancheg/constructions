@@ -57,7 +57,7 @@ h6, .h6 {
     }
 }
 
-.left_footer, .card-divider, .card-section h3,
+.card-divider, .card-section h3,
 .calc-price, aside .vertical.menu,
 .menu-hover-lines, .title-bar-title {
     text-transform: uppercase;
@@ -68,23 +68,20 @@ h6, .h6 {
 th, .accordion-title,
 .card-divider, .card-section h3,
 .calc-price, aside .vertical.menu li a,
-.left_footer .vertical.menu li a, .menu-hover-lines li a {
+.menu-hover-lines li a, .footer-links a {
     color: rgba(10, 10, 10, 0.5);
 }
 
 .card-divider h3:hover, a.accordion-title:hover,
 a.accordion-title:focus, .card-section h3:hover,
 .calc-price:hover, aside .vertical.menu li a:hover,
-aside .vertical.menu li.active > a,
-.left_footer .vertical.menu li a:hover,
-.left_footer .vertical.menu li.active > a,
+aside .vertical.menu li.active > a, .footer-links a:hover,
 .menu-hover-lines a:hover, .menu-hover-lines li.active > a {
     color: #0a0a0a;
 }
 
 .accordion-item .is-active > a.accordion-title,
 aside .vertical.menu .is-active > a,
-.left_footer .vertical.menu .is-active > a,
 .dropdown.menu .is-active > a {
     color: #0a0a0a;
 }
@@ -162,7 +159,7 @@ aside .vertical.menu .is-active > a,
     border-radius: 0;
 }
 
-.left_footer, .card-divider, aside a, select,
+.card-divider, aside a, select,
 .card-section h3, .card-divider h3, label {
     font-size: 0.75rem;
 }
@@ -224,19 +221,13 @@ select, label {
     color: rgba(112, 112, 112, 1);
 }
 
-.right_header a.button.rounded,
-.center_footer a.button.rounded,
-main a.button.rounded {
+a.button.rounded, a.button.rounded {
     width: 40px;
     height: 40px;
 }
 
-.left_footer .menu a {
-    line-height: 0.5;
-}
-
-.center_footer .schema {
-    line-height: 1.65;
+.footer-links {
+    line-height: 1.75rem;
 }
 
 /*hero slider*/
@@ -387,7 +378,7 @@ i.fa-home {
 
 @media screen and (max-width: 39.9375em) {
     .fa-truck-moving, .fa-truck-loading,
-    .fa-plane, .fa-subway, .fa-map-marked-alt,
+    .fa-plane, .fa-subway, main .fa-map-marked-alt,
     .fa-file-invoice-dollar, .fa-hand-holding-usd,
     .fa-cc-visa, .fa-cc-mastercard, .fa-bitcoin {
         font-size: 2rem;
