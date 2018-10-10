@@ -225,7 +225,8 @@ select, label {
 }
 
 .right_header a.button.rounded,
-.center_footer a.button.rounded {
+.center_footer a.button.rounded,
+main a.button.rounded {
     width: 40px;
     height: 40px;
 }
@@ -431,3 +432,9 @@ p.h3 {
 }
 
 /*news filter end*/
+
+
+
+
+
+
