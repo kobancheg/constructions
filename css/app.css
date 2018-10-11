@@ -68,15 +68,26 @@ h6, .h6 {
 th, .accordion-title,
 .card-divider, .card-section h3,
 .calc-price, aside .vertical.menu li a,
-.menu-hover-lines li a, .footer-links a {
+.menu-hover-lines li a, .footer-links a,
+.map li a {
     color: rgba(10, 10, 10, 0.5);
+}
+
+.map li a {
+    font-size: 1rem!important;
+}
+
+footer p > a {
+    color: rgba(112, 112, 112, 1);
+    text-decoration: underline;
 }
 
 .card-divider h3:hover, a.accordion-title:hover,
 a.accordion-title:focus, .card-section h3:hover,
 .calc-price:hover, aside .vertical.menu li a:hover,
 aside .vertical.menu li.active > a, .footer-links a:hover,
-.menu-hover-lines a:hover, .menu-hover-lines li.active > a {
+.menu-hover-lines a:hover, .menu-hover-lines li.active > a,
+.map li a:hover, footer p > a:hover {
     color: #0a0a0a;
 }
 
@@ -424,7 +435,39 @@ p.h3 {
 
 /*news filter end*/
 
+/*text divider*/
 
+.type-sidelines {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
 
+.type-sidelines span {
+    display: inline-block;
+    position: relative;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 
+.type-sidelines span:before, .type-sidelines span:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 9999px;
+    top: 50%;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.type-sidelines span:before {
+    right: 100%;
+}
+
+.type-sidelines span:after {
+    left: 100%;
+}
+
+/*text divider end*/
 
