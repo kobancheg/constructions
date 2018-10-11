@@ -69,7 +69,7 @@ th, .accordion-title,
 .card-divider, .card-section h3,
 .calc-price, aside .vertical.menu li a,
 .menu-hover-lines li a, .footer-links a,
-.map li a {
+.map li a, aside a {
     color: rgba(10, 10, 10, 0.5);
 }
 
@@ -77,7 +77,7 @@ th, .accordion-title,
     font-size: 1rem!important;
 }
 
-footer p > a, main p > a {
+footer p > a, main p > a, aside .card a {
     color: rgba(112, 112, 112, 1);
     text-decoration: underline;
 }
@@ -86,8 +86,8 @@ footer p > a, main p > a {
 a.accordion-title:focus, .card-section h3:hover,
 .calc-price:hover, aside .vertical.menu li a:hover,
 aside .vertical.menu li.active > a, .footer-links a:hover,
-.menu-hover-lines a:hover, .menu-hover-lines li.active > a,
-.map li a:hover, footer p > a:hover, main p > a:hover {
+.menu-hover-lines a:hover, .menu-hover-lines li.active > a, aside a:hover,
+.map li a:hover, footer p > a:hover, main p > a:hover, aside .card a:hover {
     color: #0a0a0a;
 }
 
