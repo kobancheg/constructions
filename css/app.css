@@ -77,6 +77,10 @@ a:hover, a:focus {
     color: #8a8a8a;
 }
 
+.right_header .button {
+    background-color: #30aeb1;
+}
+
 .fas, .fab {
     color: #30aeb1;
 }
