@@ -2649,7 +2649,7 @@ a.button:hover, a.button:focus {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #cc4b37 transparent transparent;
     top: 0;
     bottom: 0;
     margin: auto; }
