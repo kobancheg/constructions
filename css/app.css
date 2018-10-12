@@ -2,10 +2,6 @@ body.is-reveal-open {
     padding-right: 1rem;
 }
 
-body {
-    color: rgba(112, 112, 112, 1);
-}
-
 h1, .h1 {
     font-size: 24px;
 }
@@ -41,15 +37,15 @@ h6, .h6 {
     margin-left: 0.5rem;
 }
 
-.menu-icon::after {
-    background: rgba(10, 10, 10, 0.5);
-    box-shadow: 0 7px 0 rgba(10, 10, 10, 0.5), 0 14px 0 rgba(10, 10, 10, 0.5);
-}
+/*.menu-icon::after {*/
+    /*background: rgba(10, 10, 10, 0.5);*/
+    /*box-shadow: 0 7px 0 rgba(10, 10, 10, 0.5), 0 14px 0 rgba(10, 10, 10, 0.5);*/
+/*}*/
 
-.menu-icon:hover::after {
-    background: #0a0a0a;
-    box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
-}
+/*.menu-icon:hover::after {*/
+    /*background: #0a0a0a;*/
+    /*box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;*/
+/*}*/
 
 @media screen and (max-width: 39.9375em) {
     .right_header {
@@ -57,43 +53,20 @@ h6, .h6 {
     }
 }
 
-.card-divider, .card-section h3,
-.calc-price, aside .vertical.menu,
-.menu-hover-lines, .title-bar-title {
+/*menu*/
+
+.menu-hover-lines {
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.35s ease;
 }
 
-th, .accordion-title,
-.card-divider, .card-section h3,
-.calc-price, aside .vertical.menu li a,
-.menu-hover-lines li a, .footer-links a,
-.map li a, aside a {
+.menu-hover-lines li a {
     color: rgba(10, 10, 10, 0.5);
 }
 
-.map li a {
-    font-size: 1rem!important;
-}
-
-footer p > a, main p > a, aside .card a {
-    color: rgba(112, 112, 112, 1);
-    text-decoration: underline;
-}
-
-.card-divider h3:hover, a.accordion-title:hover,
-a.accordion-title:focus, .card-section h3:hover,
-.calc-price:hover, aside .vertical.menu li a:hover,
-aside .vertical.menu li.active > a, .footer-links a:hover,
-.menu-hover-lines a:hover, .menu-hover-lines li.active > a, aside a:hover,
-.map li a:hover, footer p > a:hover, main p > a:hover, aside .card a:hover {
-    color: #0a0a0a;
-}
-
-.accordion-item .is-active > a.accordion-title,
-aside .vertical.menu .is-active > a,
-.dropdown.menu .is-active > a {
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
     color: #0a0a0a;
 }
 
@@ -175,29 +148,8 @@ aside .vertical.menu .is-active > a,
     font-size: 0.75rem;
 }
 
-.callout h1, .callout h2, .callout h3,
-.pagination a, .pagination button, .tabs-content {
-    color: rgba(112, 112, 112, 1);
-}
-
-td, main li, .cell p, .card-section p,
-.media-object-section p, time,
-.callout li, .callout p {
-    font-size: 0.8rem;
-    color: rgba(112, 112, 112, 1);
-}
-
-.accordion-title {
-    font-size: 1rem;
-}
-
 .center_header .input-group > :first-child {
     border-right: 0;
-}
-
-.center_header .button.hollow.secondary {
-    border: 1px solid #cacaca;
-    border-left: 0;
 }
 
 .center_header .input-group {
@@ -235,6 +187,10 @@ select, label {
 a.button.rounded, a.button.rounded {
     width: 40px;
     height: 40px;
+}
+
+footer p > a, main p > a, aside .card a {
+    text-decoration: underline;
 }
 
 .footer-links {
@@ -378,14 +334,6 @@ a.button.rounded, a.button.rounded {
 }
 
 /*end hero slider*/
-
-.row-icons i {
-    color: #ffae00;
-}
-
-i.fa-home {
-    color: #2ba6cb;
-}
 
 @media screen and (max-width: 39.9375em) {
     .fa-truck-moving, .fa-truck-loading,
