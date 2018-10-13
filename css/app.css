@@ -90,6 +90,10 @@ a.button.rounded, a.button.rounded {
 
 /*top menu*/
 
+.top-bar {
+    padding: 0;
+}
+
 .title-bar {
     background: #cc4b37;
 }
@@ -104,23 +108,46 @@ a.button.rounded, a.button.rounded {
     }
 }
 
-.top-menu {
+#top-menu {
     text-transform: uppercase;
     transition: all 0.35s ease;
     font-weight: bold;
     font-size: 0.8rem;
 }
 
-.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+#top-menu a {
+    white-space: nowrap;
+    padding: 1rem;
 }
 
-@media print, screen and (min-width: 64em) {
-    .dropdown.menu.large-horizontal > li.opens-right > .is-dropdown-submenu {
-        top: 125%;
-        right: auto;
-        left: 0;
+@media screen and (min-width: 64em) {
+    #top-menu {
+        border-top: 2px solid #cc4b37;
+    }
+    .top-bar, .top-bar ul.dropdown {
+        background: none;
+    }
+    .is-dropdown-submenu {
+        min-width: 100%;
+    }
+    .parent-item a {
+        text-align: center;
+    }
+    .child-item a {
+        text-align: left;
+    }
+    li.parent-item:hover {
+        background-color: #cc4b37;
+    }
+    li.child-item:hover {
+        background-color: #cc4b37;
+    }
+    li.parent-item:hover > a,
+    li.parent-item.is-active:hover > a{
+        color: #fefefe;
+    }
+    li.child-item:hover > a {
+        color: #fefefe;
     }
 }
 
