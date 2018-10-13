@@ -4,7 +4,12 @@ body.is-reveal-open {
 
 body {
     background-image: url("../images/bg-light-4816.png");
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 0.9rem;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h1, .h1 {
@@ -108,19 +113,15 @@ a.button.rounded, a.button.rounded {
     }
 }
 
-#top-menu {
-    text-transform: uppercase;
-    transition: all 0.35s ease;
-    font-weight: bold;
-    font-size: 0.8rem;
-}
-
 #top-menu a {
     white-space: nowrap;
     padding: 1rem;
 }
 
 @media screen and (min-width: 64em) {
+    .top-bar, .top-bar ul {
+        background-color: #fefefe;
+    }
     #top-menu {
         border-top: 2px solid #cc4b37;
     }
@@ -167,10 +168,14 @@ a:hover, a:focus {
 
 /*aside menu*/
 
-aside .vertical.menu {
-    transition: all 0.35s ease;
-    font-weight: bold;
-    font-size: 0.8rem;
+aside.cell {
+    padding-right: 0!important;
+}
+
+@media screen and (min-width: 64em) {
+    .is-dropdown-submenu {
+        z-index: 12;
+    }
 }
 
 .dropdown .is-dropdown-submenu a {
