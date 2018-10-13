@@ -31,12 +31,23 @@ h6, .h6 {
     font-size: 16px;
 }
 
+@media screen and (min-width: 64em) {
+    .center_header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
 .center_header .input-group > :first-child {
     border-right: 0;
 }
 
 .center_header .input-group {
-    margin-bottom: 0.5rem;
+    margin-top: 0.45rem
+}
+
+.left_header img {
+    margin-top: 0.35rem;
 }
 
 .input-group > :last-child > *,
