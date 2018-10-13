@@ -31,159 +31,6 @@ h6, .h6 {
     font-size: 16px;
 }
 
-.card, .callout, .tabs-content,
-.accordion, .accordion-content {
-    background: none;
-}
-
-/*menu*/
-
-.title-bar {
-    background: #cc4b37;
-}
-
-.title-bar-title {
-    margin-left: 0.5rem;
-}
-
-@media screen and (max-width: 39.9375em) {
-    .right_header {
-        margin-top: 0!important;
-    }
-}
-
-.menu-hover-lines {
-    text-transform: uppercase;
-    transition: all 0.35s ease;
-    font-weight: bold;
-    font-size: 0.8rem;
-}
-
-aside .vertical.menu {
-    transition: all 0.35s ease;
-    font-weight: bold;
-    font-size: 0.8rem;
-}
-
-.breadcrumbs a,
-.accordion-title,
-a {
-    color: #0a0a0a;
-}
-
-.breadcrumbs a:hover,
-.breadcrumbs a:focus,
-a:hover, a:focus {
-    color: #8a8a8a;
-}
-
-.right_header .button {
-    background-color: #30aeb1;
-}
-
-.fas, .fab {
-    color: #30aeb1;
-}
-
-.fa-vk:before,.fa-facebook-f:before,
-.fa-twitter:before, .fa-at:before, .fa-search:before {
-    color: #fefefe;
-}
-
-.accordion-item .is-active > a.accordion-title,
-aside .vertical.menu .is-active > a,
-.dropdown.menu .is-active > a {
-    color: #0a0a0a;
-}
-
-
-@media screen and (min-width: 64em) {
-    #top-menu .menu a, .menu .button {
-        display: inline-block;
-    }
-}
-
-.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
-    border-color: #cc4b37 transparent transparent;
-}
-
-@media screen and (min-width: 64em) {
-    .top-bar .dropdown.menu a {
-        padding: 0.7rem 0;
-    }
-
-    .menu-hover-lines li a {
-        padding: 0.75rem 0;
-        position: relative;
-        margin-left: 1.125rem;
-        margin-right: 1.125rem;
-    }
-
-    .menu-hover-lines li.active > a {
-        background-color: transparent;
-    }
-
-    .menu-hover-lines a:before,
-    .menu-hover-lines a::after {
-        height: 3px;
-        position: absolute;
-        content: '';
-        transition: all 0.35s ease;
-        background-color: #cc4b37;
-        width: 0;
-    }
-
-    .menu-hover-lines a::before {
-        top: 0;
-        left: 0;
-    }
-
-    .menu-hover-lines a::after {
-        bottom: 0;
-        right: 0;
-        top: auto;
-    }
-
-    .menu-hover-lines a:hover,
-    .menu-hover-lines li.active > a {
-        transition: all 0.35s ease;
-    }
-
-    .menu-hover-lines a:hover::before,
-    .menu-hover-lines .active a::before,
-    .menu-hover-lines a:hover::after,
-    .menu-hover-lines .active a::after {
-        width: 100%;
-    }
-
-    .dropdown.menu > li.is-dropdown-submenu-parent > a {
-        padding-right: 0rem;
-    }
-
-    .dropdown.menu.vertical > li > a::after {
-        right: 0px;
-    }
-}
-
-/*end menu*/
-
-.tabs {
-    background: #cc4b37;
-}
-
-.tabs-title > a {
-    color: #fefefe;
-}
-
-.tabs-title > a:focus, .tabs-title > a:hover, .tabs-title > a[aria-selected='true'] {
-    background: #ea6b67;
-    color: #fefefe;
-}
-
-.card {
-    border-radius: 0;
-}
-
 .center_header .input-group > :first-child {
     border-right: 0;
 }
@@ -221,8 +68,164 @@ select, label {
 }
 
 a.button.rounded, a.button.rounded {
+    background-color: #30aeb1;
     width: 40px;
     height: 40px;
+}
+
+.center_header .button {
+    background-color: #30aeb1;
+}
+
+/*top menu*/
+
+.title-bar {
+    background: #cc4b37;
+}
+
+.title-bar-title {
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .right_header {
+        margin-top: 0!important;
+    }
+}
+
+.top-menu {
+    text-transform: uppercase;
+    transition: all 0.35s ease;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+@media print, screen and (min-width: 64em) {
+    .dropdown.menu.large-horizontal > li.opens-right > .is-dropdown-submenu {
+        top: 125%;
+        right: auto;
+        left: 0;
+    }
+}
+
+/*end top menu*/
+
+.breadcrumbs a,
+.accordion-title,
+a {
+    color: #0a0a0a;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus,
+a:hover, a:focus {
+    color: #8a8a8a;
+}
+
+/*aside menu*/
+
+aside .vertical.menu {
+    transition: all 0.35s ease;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.dropdown .is-dropdown-submenu a {
+    white-space: nowrap;
+}
+
+.dropdown.menu.vertical > li.opens-right > a::after {
+    border: inset 4px;
+    border-color: transparent transparent transparent #cc4b37;
+}
+
+.list-group {
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    background: #fefefe;
+    box-shadow: none;
+    color: #0a0a0a;
+}
+
+.list-group > :last-child {
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.list-group-item.active {
+    color: #fefefe;
+    background-color: #1779ba;
+    border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+    background-color: #e6e6e6;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+    background-color: #1779ba;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover,
+.list-group-item.disabled:focus, .list-group-item[disabled],
+.list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+    color: #8a8a8a;
+    cursor: not-allowed;
+    background-color: #fefefe;
+}
+
+/*aside menu end*/
+
+.card, .callout, .tabs-content,
+.accordion, .accordion-content {
+    background: none;
+}
+
+.accordion-item .is-active > a.accordion-title,
+aside .vertical.menu .is-active > a,
+.dropdown.menu .is-active > a {
+    color: #0a0a0a;
+}
+
+.fas, .fab {
+    color: #30aeb1;
+}
+
+.fa-vk:before,.fa-facebook-f:before,
+.fa-twitter:before, .fa-at:before, .fa-search:before {
+    color: #fefefe;
+}
+
+.tabs {
+    background: #cc4b37;
+}
+
+.tabs-title > a {
+    color: #fefefe;
+}
+
+.tabs-title > a:focus, .tabs-title > a:hover, .tabs-title > a[aria-selected='true'] {
+    background: #ea6b67;
+    color: #fefefe;
+}
+
+.card {
+    border-radius: 0;
 }
 
 footer p > a, main p > a {
