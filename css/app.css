@@ -6,6 +6,9 @@ body {
     background-image: url("../images/bg-light-4816.png");
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 0.9rem;
+}
+
+header, footer, nav {
     font-weight: 500;
 }
 
@@ -214,7 +217,7 @@ aside.cell {
 .list-group-item.active {
     color: #fefefe;
     background-color: #1779ba;
-    border-color: 1px solid #1779ba;
+    border-bottom: 1px solid #1779ba;
 }
 
 .list-group-item:hover, .list-group-item:focus {
