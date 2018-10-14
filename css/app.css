@@ -52,7 +52,7 @@ h6, .h6 {
 }
 
 .center_header .input-group {
-    margin-top: 0.45rem
+    margin-top: 0.5rem
 }
 
 .left_header img {
@@ -122,9 +122,18 @@ a.button.rounded, a.button.rounded {
         margin-top: 0!important;
     }
     .center_header .input-group {
-        margin-top: 1rem;
+        margin-top: 0.8rem;
     }
     .center_header .show-for-small-only p.text-nowrap {
+        font-size: 0.8rem;
+    }
+    .center_header h1 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .right_header .show-for-medium p.large-text-right {
         font-size: 0.8rem;
     }
 }
