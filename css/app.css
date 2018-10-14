@@ -121,6 +121,12 @@ a.button.rounded, a.button.rounded {
     .right_header {
         margin-top: 0!important;
     }
+    .center_header .input-group {
+        margin-top: 1rem;
+    }
+    .center_header .show-for-small-only p.text-nowrap {
+        font-size: 0.8rem;
+    }
 }
 
 #top-menu a {
