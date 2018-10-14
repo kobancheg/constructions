@@ -63,6 +63,9 @@ h6, .h6 {
     .right_header {
         margin-top: 1rem;
     }
+    .left_header {
+        margin-top: 2rem;
+    }
 }
 
 .input-group > :last-child > *,
