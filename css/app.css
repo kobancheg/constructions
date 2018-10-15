@@ -273,6 +273,10 @@ aside .vertical.menu .is-active > a,
     color: #0a0a0a;
 }
 
+.pagination .current {
+    background: #30aeb1;
+}
+
 .fas, .fab, .far {
     color: #30aeb1;
 }
