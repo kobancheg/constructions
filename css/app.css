@@ -52,7 +52,8 @@ h6, .h6 {
 }
 
 .center_header .input-group {
-    margin-top: 0.5rem
+    margin-top: 0.75rem;
+    height: 2rem;
 }
 
 .left_header img {
@@ -60,12 +61,16 @@ h6, .h6 {
 }
 
 @media screen and (min-width: 64em) {
-    .right_header {
-        margin-top: 1rem;
-    }
-    .left_header {
-        margin-top: 2rem;
-    }
+    /*.right_header {*/
+        /*margin-top: 1rem;*/
+    /*}*/
+    /*.left_header {*/
+        /*margin-top: 1.125rem;*/
+    /*}*/
+}
+
+.right_header .large-text-right {
+    margin-bottom: 0.5rem;
 }
 
 .input-group > :last-child > *,
@@ -74,7 +79,7 @@ h6, .h6 {
 }
 
 .center_header i.fas {
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .input-group [type='search'], textarea,
@@ -98,12 +103,14 @@ select, label {
 
 a.button.rounded, a.button.rounded {
     background-color: #30aeb1;
-    width: 40px;
-    height: 40px;
+    padding: 0.65em 1em;
+    width: 35px;
+    height: 35px;
 }
 
 .center_header .button {
     background-color: #30aeb1;
+    padding: 0 0.5rem;
 }
 
 /*top menu*/
@@ -129,15 +136,17 @@ a.button.rounded, a.button.rounded {
     }
     .center_header .show-for-small-only p.text-nowrap {
         font-size: 0.8rem;
+        line-height: 0.6;
     }
     .center_header h1 {
-        margin-bottom: 0;
+        margin-top: 0.5rem;
     }
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .right_header .show-for-medium p.large-text-right {
         font-size: 0.8rem;
+        line-height: 1.4;
     }
 }
 
