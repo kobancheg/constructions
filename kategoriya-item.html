@@ -15,36 +15,37 @@
 
 <!--header-->
 <header class="grid-container">
-    <div class="grid-x grid-margin-x padding-top-1">
-        <div class="cell large-3 left_header text-center large-text-left">
+    <div class="grid-x grid-padding-x">
+        <div class="cell large-3 left_header text-center large-text-left margin-top-2">
             <a href="/index.html">
                 <img src="images/logo1.png"/>
             </a>
         </div>
-        <div class="cell large-5 large-offset-1 center_header">
-            <h1 class="text-center h6 margin-bottom-0"><strong>Проектирование, производство и монтаж конструкций из стекла</strong></h1>
-            <div class="grid-x grid-margin-x">
-                <div class="cell small-6 medium-12">
+        <div class="cell large-5 large-offset-1 center_header margin-top-1">
+            <h1 class="text-center h6"><strong>Проектирование, производство и монтаж конструкций из стекла</strong></h1>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6 medium-12 align-self-middle">
                     <div class="input-group">
                         <input class="input-group-field" type="search" placeholder="Поиск">
                         <div class="input-group-button">
-                            <a href="search.html" type="submit" class="button">
+                            <a href="search.html" type="submit" class="button alert">
                                 <i class="fas fa-search fa-sm"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="cell small-6 show-for-small-only">
-                    <p class="text-right text-nowrap"><i class="fas fa-phone fa-sm"></i><strong>
+                    <p class="text-center text-nowrap">
+                        <i class="fas fa-phone fa-sm margin-right-1"></i><strong>
                         8 (495) 407-78-41</strong><br/>c 9:00 до 18:00
                     </p>
                 </div>
             </div>
         </div>
-        <div class="cell large-3 right_header">
-            <div class="grid-x grid-margin-x">
+        <div class="cell large-3 right_header margin-top-1">
+            <div class="grid-x">
                 <div class="cell small-6 medium-4 hide-for-large">
-                    <div class="button-group margin-bottom-0">
+                    <div class="button-group align-center">
                         <a class="button rounded padding-horizontal-0"><i class="fab fa-vk fa-sm"></i></a>
                         <a class="button rounded padding-horizontal-0"><i class="fab fa-facebook-f fa-sm"></i></a>
                         <a class="button rounded padding-horizontal-0"><i class="fab fa-twitter fa-sm"></i></a>
@@ -85,8 +86,8 @@
                         (495) 407-78-41</strong><br/>c 9:00 до 18:00</p>
                 </div>
                 <div class="cell small-6 medium-4 large-12">
-                    <p class="text-right">
-                        <button class="button small margin-bottom-0 rounded alert" data-open="exampleModal1">Заказать звонок
+                    <p class="text-center large-text-right">
+                        <button class="button margin-bottom-0 rounded" data-open="exampleModal1">Заказать звонок
                         </button>
                     </p>
                 </div>
@@ -125,29 +126,23 @@
     </nav>
     <nav class="top-bar" id="top-menu">
         <div class="top-bar-left">
-            <ul class="vertical large-horizontal menu large-expanded padding-horizontal-1"
-                data-closing-time="0" data-hover-delay="0" data-responsive-menu="accordion large-dropdown"
+            <ul class="vertical large-horizontal menu menu-hover-lines nested"
+                data-responsive-menu="accordion large-dropdown"
                 data-submenu-toggle="true">
-                <li class="parent-item">
+                <li>
                     <a href="about.html">О Компании</a>
                     <ul class="menu vertical nested">
-                        <li class="child-item"><a href="otzyvy.html">Отзывы</a></li>
-                        <li class="child-item"><a href="partners.html">Партнёры</a></li>
+                        <li><a href="otzyvy.html">Отзывы</a></li>
+                        <li><a href="partners.html">Партнёры</a></li>
                     </ul>
                 </li>
-                <li class="parent-item"><a href="katalog.html">Каталог</a></li>
-                <li class="parent-item"><a href="montazh.html">Монтаж</a>
-                    <ul class="menu vertical nested">
-                        <li class="child-item"><a href="montazh-item.html">Стеклянной перегородки</a></li>
-                        <li class="child-item"><a href="montazh-item-2.html">Стеклянных дверей</a></li>
-                        <li class="child-item"><a href="montazh-item-3.html">Сантехнических перегородок</a></li>
-                    </ul>
-                </li>
-                <li class="parent-item"><a href="obekty.html">Выполненные проекты</a></li>
-                <li class="parent-item"><a href="news.html">Новости</a></li>
-                <li class="parent-item"><a href="dostavka.html">Доставка</a></li>
-                <li class="parent-item"><a href="oplata.html">Оплата</a></li>
-                <li class="parent-item"><a href="contacts.html">Контакты</a></li>
+                <li><a href="katalog.html">Каталог</a></li>
+                <li><a href="montazh.html">Монтаж</a></li>
+                <li><a href="obekty.html">Выполненные проекты</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="dostavka.html">Доставка</a></li>
+                <li><a href="oplata.html">Оплата</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
     </nav>
@@ -158,180 +153,95 @@
 <div class="grid-container">
     <div class="grid-x grid-padding-x">
         <!--sidebar-->
-        <aside class="large-3 cell show-for-large margin-top-1">
-            <nav class="vertical dropdown menu list-group" data-dropdown-menu data-closing-time="0" data-hover-delay="0">
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Стеклянные перегородки
-                    </a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="kategoriya-item.html">Цельностеклянные перегородки вариант 1</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="kategoriya-item-2.html">Стеклянные трансформируемые перегородки вариант 2</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="kategoriya-item-3.html">Декоративные перегородки вариант 3</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Каркасные стеклянные перегородки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Офисные стеклянные перегородки</a>
-                        </li>
-                        <li class="list-group-item"><a href="#">Перегородки из матового стекла</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Торговые стеклянные перегородки</a>
-                        </li>
+        <aside class="large-4 cell show-for-large margin-top-1">
+            <ul class="vertical menu" data-responsive-menu="drilldown medium-accordion" data-submenu-toggle="true">
+                <li>
+                    <a href="kategoriya.html">Стеклянные перегородки</a>
+                    <ul class="vertical menu nested">
+                        <li><a href="kategoriya-item.html">Цельностеклянные перегородки вариант 1</a></li>
+                        <li><a href="kategoriya-item-2.html">Стеклянные трансформируемые перегородки вариант 2</a></li>
+                        <li><a href="kategoriya-item-3.html">Декоративные перегородки вариант 3</a></li>
+                        <li><a href="#">Каркасные стеклянные перегородки</a></li>
+                        <li><a href="#">Офисные стеклянные перегородки</a></li>
+                        <li><a href="#">Перегородки из матового стекла</a></li>
+                        <li><a href="#">Торговые стеклянные перегородки</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Каркасные перегородки</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Каркасные глухие перегородки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Каркасные комбинированные перегородки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Материалы отделки</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Каркасные глухие перегородки</a></li>
+                        <li><a href="#">Каркасные комбинированные перегородки</a></li>
+                        <li><a href="#">Материалы отделки</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Двери</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Каркасные двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Ламинированные двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Цельностеклянные двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Типовые рисунки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Автоматические двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Входные двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Двери из закаленного стекла</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Маятниковые двери</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Раздвижные стеклянные двери</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Каркасные двери</a></li>
+                        <li><a href="#">Ламинированные двери</a></li>
+                        <li><a href="#">Цельностеклянные двери</a></li>
+                        <li><a href="#">Типовые рисунки</a></li>
+                        <li><a href="#">Автоматические двери</a></li>
+                        <li><a href="#">Входные двери</a></li>
+                        <li><a href="#">Двери из закаленного стекла</a></li>
+                        <li><a href="#">Маятниковые двери</a></li>
+                        <li><a href="#">Раздвижные стеклянные двери</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Душевые кабины</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Двери для душа</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Душевые перегородки</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Двери для душа</a></li>
+                        <li><a href="#">Душевые перегородки</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Стеклянный пол, потолок</a>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Стеклянные ограждения</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Стеклянное ограждение на стойках </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Стеклянное ограждение на профиле</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Стеклянное ограждение на точечных креплениях </a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Стеклянное ограждение на стойках </a></li>
+                        <li><a href="#">Стеклянное ограждение на профиле</a></li>
+                        <li><a href="#">Стеклянное ограждение на точечных креплениях </a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Перила и ограждения из</br>нержавеющей стали</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Трехригельные ограждения из нержавеющей стали</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Пристенные поручни из нержавеющей стали</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Поручни для инвалидов из нержавеющей стали</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Трехригельные ограждения из нержавеющей стали</a></li>
+                        <li><a href="#">Пристенные поручни из нержавеющей стали</a></li>
+                        <li><a href="#">Поручни для инвалидов из нержавеющей стали</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Спайдерное остекление<br/> фасадов</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Стеклянные козырьки</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Остекление лифтовых шахт</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Эксклюзивные стеклянные<br/> изделия</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Лестницы</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Водоотталкивающее покрытие</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Мобильные перегородки</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Перегородки для дома</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Перегородки эконом класса</a>
-                </li>
-                <li class="list-group-item">
+                <li><a href="kategoriya.html">Спайдерное остекление<br/> фасадов</a></li>
+                <li><a href="kategoriya.html">Стеклянные козырьки</a></li>
+                <li><a href="kategoriya.html">Остекление лифтовых шахт</a></li>
+                <li><a href="kategoriya.html">Эксклюзивные стеклянные<br/> изделия</a></li>
+                <li><a href="kategoriya.html">Лестницы</a></li>
+                <li><a href="kategoriya.html">Водоотталкивающее покрытие</a></li>
+                <li><a href="kategoriya.html">Мобильные перегородки</a></li>
+                <li><a href="kategoriya.html">Перегородки для дома</a></li>
+                <li><a href="kategoriya.html">Перегородки эконом класса</a></li>
+                <li>
                     <a href="kategoriya.html">Раздвижные перегородки</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Перегородки купе</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Перегородки купе</a></li>
                     </ul>
                 </li>
-                <li class="list-group-item">
+                <li>
                     <a href="kategoriya.html">Сантехнические<br/>перегородки</a>
-                    <ul class="vertical menu list-group">
-                        <li class="list-group-item">
-                            <a href="#">Стеклянные сантехнические перегородки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Алюминиевые сантехнические перегородки</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Перегородки для писсуара</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#">Туалетные перегородки</a>
-                        </li>
+                    <ul class="vertical menu nested">
+                        <li><a href="#">Стеклянные сантехнические перегородки</a></li>
+                        <li><a href="#">Алюминиевые сантехнические перегородки</a></li>
+                        <li><a href="#">Перегородки для писсуара</a></li>
+                        <li><a href="#">Туалетные перегородки</a></li>
                     </ul>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Системы офисных раздвижных перегородок</a>
-                </li>
-                <li class="list-group-item">
-                    <a href="kategoriya.html">Стеклянные конструкции</a>
-                </li>
-            </nav>
+                <li><a href="kategoriya.html">Системы офисных раздвижных перегородок</a></li>
+                <li><a href="kategoriya.html">Стеклянные конструкции</a></li>
+                <li><a href="kategoriya.html">Конструктор</a></li>
+            </ul>
             <hr>
             <a href="otzyvy.html"><h2 class="text-center">Отзывы</h2></a>
             <div class="card">
@@ -386,7 +296,7 @@
         </aside>
         <!--sidebar end-->
         <!--main-->
-        <main class="large-9 cell">
+        <main class="large-8 cell">
             <nav class="margin-vertical-1" aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
                     <li><i class="fas fa-home fa-lg margin-right-1"></i><a href="#">Home</a></li>
@@ -394,12 +304,12 @@
                     <li><span class="show-for-sr">Current: </span> Cloning</li>
                 </ul>
             </nav>
-            <h1>Цельностеклянные перегородки</h1>
+            <h1 class="text-center">Цельностеклянные перегородки</h1>
             <div class="grid-x grid-margin-x small-up-1 medium-up-2">
                 <div class="cell">
                     <h6>Contrary to popular belief</h6>
                     <img src="https://placehold.it/300x200">
-                    <p class="padding-top-1 width-100">
+                    <p class="padding-top-1 width-100 text-center">
                         <button class="button alert small" data-open="price-Modal1">Узнать стоимость</button>
                     </p>
                     <!--price modal-->
@@ -439,7 +349,7 @@
                 </div>
             </div>
             <!--accordion-->
-            <h2>Дополнительные опции</h2>
+            <h2 class="text-center">Дополнительные опции</h2>
             <ul class="accordion" data-accordion>
                 <li class="accordion-item is-active" data-accordion-item>
                     <!-- Accordion tab title -->
@@ -458,8 +368,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal" data-reveal>
                                     <!--hero slider-->
@@ -519,8 +431,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-1">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-1">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-1" data-reveal>
                                     <!--hero slider-->
@@ -580,8 +494,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-2">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-2">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-2" data-reveal>
                                     <!--hero slider-->
@@ -641,8 +557,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-3">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-3">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-3" data-reveal>
                                     <!--hero slider-->
@@ -702,8 +620,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-4">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-4">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-4" data-reveal>
                                     <!--hero slider-->
@@ -763,8 +683,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-5">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-5">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-5" data-reveal>
                                     <!--hero slider-->
@@ -824,8 +746,10 @@
                                     content
                                     here', making it look like readable English.
                                 </p>
-                                <button class="button alert small" data-toggle="media-modal-6">Посмотреть фотографии
-                                </button>
+                                <p class="text-center">
+                                    <button class="button alert small" data-toggle="media-modal-6">Посмотреть фотографии
+                                    </button>
+                                </p>
                                 <!--media-modal-->
                                 <div class="reveal slider-modal" id="media-modal-6" data-reveal>
                                     <!--hero slider-->
@@ -870,111 +794,118 @@
                 </li>
                 <!-- ... -->
             </ul>
-            <!--accordion end-->
-            <p class="text-justify"><strong>There are many variations</strong> of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some form, by injected humour, or
-                randomised words which don't look even slightly believable.</p>
-            <table>
-                <tbody>
-                <tr>
-                    <td><img src="https://placehold.it/300x200"></td>
-                    <td><img src="https://placehold.it/300x200"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">a-1</td>
-                    <td class="text-center">b-1</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/300x200"></td>
-                    <td><img src="https://placehold.it/300x200"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">a-1</td>
-                    <td class="text-center">b-1</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/300x200"></td>
-                    <td><img src="https://placehold.it/300x200"></td>
-                </tr>
-                </tbody>
-            </table>
-            <p class="text-justify"><strong>If you are going to use</strong> a passage of Lorem Ipsum, you need
-                to
-                be sure there isn't anything embarrassing hidden in the middle of text.</p>
-            <table>
-                <tbody>
-                <tr>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                    <td><img src="https://placehold.it/150x250"></td>
-                </tr>
-                </tbody>
-            </table>
-            <p class="text-justify"><strong>All the Lorem Ipsum generators</strong> on the Internet tend to
-                repeat
-                predefined chunks as necessary, making this the first true generator on the Internet.</p>
-            <table>
-                <tbody>
-                <tr>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">H1502 | Ольха</td>
-                    <td class="text-center">арт. 1589</td>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                </tr>
-                <tr>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                    <td class="text-center">арт. 1547</td>
-                    <td class="text-center">арт. 1589</td>
-                </tr>
-                <tr>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                    <td><img src="https://placehold.it/140x45"></td>
-                </tr>
-                </tbody>
-            </table>
-            <p class="text-justify">Various versions have evolved over the years, sometimes by accident,
-                sometimes
-                on purpose (injected humour and the like).</p>
+            <div class="grid-x grid-margin-x">
+                <div class="cell">
+                    <p class="text-justify"><strong>There are many variations</strong> of passages of Lorem Ipsum
+                        available,
+                        but the majority
+                        have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable.</p>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><img src="https://placehold.it/300x200"></td>
+                            <td><img src="https://placehold.it/300x200"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">a-1</td>
+                            <td class="text-center">b-1</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/300x200"></td>
+                            <td><img src="https://placehold.it/300x200"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">a-1</td>
+                            <td class="text-center">b-1</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/300x200"></td>
+                            <td><img src="https://placehold.it/300x200"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-justify"><strong>If you are going to use</strong> a passage of Lorem Ipsum, you need
+                        to
+                        be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                            <td><img src="https://placehold.it/150x250"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-justify"><strong>All the Lorem Ipsum generators</strong> on the Internet tend to
+                        repeat
+                        predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">H1502 | Ольха</td>
+                            <td class="text-center">арт. 1589</td>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                            <td class="text-center">арт. 1547</td>
+                            <td class="text-center">арт. 1589</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                            <td><img src="https://placehold.it/140x45"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-justify">Various versions have evolved over the years, sometimes by accident,
+                        sometimes
+                        on purpose (injected humour and the like).</p>
+                </div>
+            </div>
+            <!--accordion-->
         </main>
         <!--main end-->
         <!--slider works-->
